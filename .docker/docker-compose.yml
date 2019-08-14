@@ -6,6 +6,7 @@ services:
       context: www
       args:
         PHP_VERSION: ${PHP_VERSION}
+        DRUSH_VERSION: ${DRUSH_VERSION}
     image: "${PROJECT_NAME}/www"
     container_name: "${PROJECT_NAME}_www"
     ports:
