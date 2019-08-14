@@ -2,10 +2,10 @@
 Docker with apache, php and mysql for a development environment.
 
 # To do
-* PHP
+* ~~PHP~~
 * drush
 * composer
-* Apache
+* ~~Apache~~
 * MySQL
 * Mailhog
 * Adminer

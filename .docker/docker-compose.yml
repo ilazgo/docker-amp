@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  www:
+    build:
+      context: www
+      args:
+        PHP_VERSION: ${PHP_VERSION}
+    image: "${PROJECT_NAME}/www"
+    container_name: "${PROJECT_NAME}_www"
+    ports:
+      - "${PORTS_WEB}:80"
+    volumes:
+      - ${PATH_APP}:/var/www/html
