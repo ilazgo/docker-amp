@@ -6,7 +6,7 @@ Docker with apache, php and mysql for a development environment.
 * ~~drush~~
 * ~~composer~~
 * ~~Apache~~
-* MySQL
+* ~~MySQL~~
 * Mailhog
 * Adminer
 * Xdebug
