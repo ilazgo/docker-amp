@@ -1,2 +1,6 @@
 [mysqld]
-#max_allowed_packet = 64M
+max_allowed_packet = 64M
+innodb_file_per_table = 1
+skip-grant-tables = 1
+collation-server = utf8mb4_unicode_ci
+character-set-server = utf8mb4
