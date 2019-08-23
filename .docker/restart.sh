@@ -1,7 +1,4 @@
 #!/bin/sh
- 
-cd
-cd dev/projects/docker-amp/.docker/
 
 docker-compose down
 docker rm $(docker ps -a -q)
