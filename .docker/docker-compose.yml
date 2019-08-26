@@ -12,7 +12,6 @@ services:
     ports:
       - "${PORTS_WEB}:80"
     volumes:
-      - ./www/php/config:/usr/local/etc/php/conf.d
       - ${PATH_APP}:/var/www/html
 
   database:

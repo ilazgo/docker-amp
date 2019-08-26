@@ -36,3 +36,6 @@ RUN composer --version
 ARG DRUSH_VERSION=9
 RUN composer global require drush/drush:"${DRUSH_VERSION}" --prefer-dist
 ENV PATH /root/.composer/vendor/bin:$PATH
+
+# php.ini
+COPY php/config/docker-php.ini /usr/local/etc/php/conf.d/
